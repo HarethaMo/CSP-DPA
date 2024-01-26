@@ -14,12 +14,14 @@ If you want to use your own data files, you can run the following command:
 python main.py --users <path_to_users_file> --slots <path_to_parking_slots_file>
 ```
 
-For users, the file should be a csv file with the following columns:
-name: string
-type: string, either "emp" for employee or "vis"" for visitor
-priority: int, with 0 being the highest priority
-shift: int
+#### For users, the file should be a csv file with the following columns:
 
-For parking slots, the file should be a csv file with the following columns:
-slot: string, the name of the slot, which includes its area and number
-priority: int, with 0 being the highest priority
+1. name: string
+2. type: string, either "emp" for employee or "vis"" for visitor
+3. priority: int, with 0 being the highest priority
+4. shift: int
+
+#### For parking slots, the file should be a csv file with the following columns:
+
+1. slot: string, the name of the slot, which includes its area and number
+2. priority: int, with 0 being the highest priority
